@@ -21,7 +21,7 @@ jobs:
         run: |
           rm -rf node_modules package-lock.json
           npm install --legacy-peer-deps
-
+  
       - name: Build
         run: npm run build
 

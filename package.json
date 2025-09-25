@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LineiconsHQ/react-native-lineicons"
+    "url": "https://github.com/LineiconsHQ/lineicons-react-native"
   },
   "files": [
     "dist"
