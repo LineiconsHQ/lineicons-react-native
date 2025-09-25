@@ -1,0 +1,61 @@
+{
+  "name": "@lineiconshq/react-native-lineicons",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "React Native components for LineIcons - Free and Pro icon library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LineiconsHQ/react-native-lineicons"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react-native",
+    "icons",
+    "lineicons",
+    "components",
+    "free",
+    "pro",
+    "premium",
+    "ui"
+  ],
+  "author": "LineIcons",
+  "license": "MIT",
+  "homepage": "https://lineicons.com",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-native": ">=0.60.0",
+    "react-native-svg": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "@lineiconshq/free-icons": "^0.0.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^19.0.0",
+    "@types/react-native": "^0.72.0",
+    "rollup": "^4.9.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.5.0",
+    "typescript": "^5.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
