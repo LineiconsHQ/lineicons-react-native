@@ -1,7 +1,3 @@
-Here’s an **improved, polished, and consistent** version of the **React Native Lineicons package docs** — clear for developers, SEO-friendly, and matches the style of your updated React/Vue docs:
-
----
-
 # React Native Package for Lineicons — Essential UI Icons for React Native
 
 **Lineicons React Native** provides lightweight, fully customizable SVG icons as React Native components.
