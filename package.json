@@ -1,6 +1,6 @@
 {
   "name": "@lineiconshq/react-native-lineicons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "React Native components for LineIcons - Free and Pro icon library",
   "main": "dist/index.js",

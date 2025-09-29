@@ -18,7 +18,7 @@ export interface IconData {
   style?: string;
 }
 
-export interface LineIconProps {
+export interface LineiconsProps {
   icon: IconData;
   size?: number | string;
   color?: string;
@@ -27,7 +27,7 @@ export interface LineIconProps {
   [key: string]: any; // Allow other Svg props
 }
 
-export const LineIcon: React.FC<LineIconProps> = ({
+export const Lineicons: React.FC<LineiconsProps> = ({
   icon,
   size = 24,
   color = 'currentColor',
@@ -123,4 +123,4 @@ export const LineIcon: React.FC<LineIconProps> = ({
   );
 };
 
-export default LineIcon;
+export default Lineicons;
